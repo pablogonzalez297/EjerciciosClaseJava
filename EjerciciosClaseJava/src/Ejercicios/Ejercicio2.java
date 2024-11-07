@@ -7,7 +7,7 @@ public class Ejercicio2 {
 
 	public static void main(String[] args) {
 	
-		int numTrabajadores = Teclado.leerInt("Escribe el numero de trabajadores");
+		int numTrabajadores = Teclado.leerInt("Escribe el numero de trabajadores:");
 		Pantalla.escribirString("El numero de trabajodres es: ");
 		Pantalla.escribirInt(numTrabajadores);
 		

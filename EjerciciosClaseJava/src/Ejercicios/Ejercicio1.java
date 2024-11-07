@@ -5,7 +5,7 @@ public class Ejercicio1 {
 	public static void main(String[] args) {
 		
 		int hora = 3;
-		int minutos = 40;
+		int minutos = 46;
 		int segundos = 59;
 		
 		int horaResultado = hora;
