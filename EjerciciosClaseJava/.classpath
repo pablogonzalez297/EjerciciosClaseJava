@@ -6,6 +6,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Users/Pablo/Downloads/daw.jar"/>
+	<classpathentry kind="lib" path="/home/usertar/Escritorio/daw.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

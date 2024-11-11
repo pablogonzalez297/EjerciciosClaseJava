@@ -1,15 +1,20 @@
 package Ejercicios;
 
+import daw.com.Pantalla;
+import daw.com.Teclado;
+
 public class Ejercicio1 {
 
 	public static void main(String[] args) {
 		
-		int hora = 3;
-		int minutos = 59;
-		int segundos = 59;
+
+		
+		int hora = Teclado.leerInt("Escribe una hora:");
+		int minutos = Teclado.leerInt("Escribe un minuto:");
+		int segundos = Teclado.leerInt("Escribe un segundo:");
 		
 		int horaResultado = hora;
-		int minutoResultado = minutos;
+		int minutoResultado = minutos + 1;
 		int segundoResultado = segundos + 1;
 		
 		if (segundoResultado == 60) {
@@ -24,7 +29,7 @@ public class Ejercicio1 {
 			}
 		}
 		String mensaje = horaResultado + ":" + minutoResultado + ":" + segundoResultado;
-		System.out.print("La hora un segundo mas tarde es: " + mensaje);
+		System.out.print("La hora un minuto y segundo despues: " + mensaje);
 	}
 	
 }
